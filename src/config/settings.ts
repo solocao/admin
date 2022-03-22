@@ -1,10 +1,11 @@
+
 const defaultSetting = {
-  title: 'VUE3-VITE-TEMPLATE',
+  title: '管理后台',
   /**
    * @type {boolean} true | false
    * @description whether fix the header
   */
-  fixedHeader: false,
+  fixedHeader: true,
   /**
    * @type {boolean} true | false
    * @description whether show the logo in sidebar

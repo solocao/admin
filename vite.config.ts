@@ -1,11 +1,3 @@
-/*
- * @Author: GeekQiaQia
- * @Date: 2022-02-18 16:13:43
- * @LastEditTime: 2022-02-22 15:02:10
- * @LastEditors: GeekQiaQia
- * @Description:
- * @FilePath: /vue3.0-template-admin/vite.config.ts
- */
 import path from 'path'
 import { ConfigEnv, loadEnv, UserConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'

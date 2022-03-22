@@ -99,46 +99,46 @@ export const asyncRoutes: Array<RouteRecordRaw> = [
       }
     ]
   },
-  {
-    path: '/dashboard',
-    component: layout,
-    redirect: '/dashboard/workplace',
-    meta: {
-      title: {
-        '/zh-CN': '仪表盘',
-        '/en-US': 'Dashboard'
-      },
-      icon: 'ic ic-manage-fill'
-    },
-    children: [
-      {
-        path: '/dashboard/analysis',
-        name: 'analysis',
-        component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/analysis.vue'),
-        meta: {
-          title: {
-            '/zh-CN': '分析页',
-            '/en-US': 'Analysis Page'
-          },
-          icon: 'el-icon-data-analysis',
-          hidden: false,
-          hiddenTab: false
-        }
-      },
-      {
-        path: '/dashboard/workplace',
-        name: 'workplace',
-        component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/workplace.vue'),
-        meta: {
-          title: {
-            '/zh-CN': '工作台',
-            '/en-US': 'Workplace'
-          },
-          icon: 'el-icon-data-analysis'
-        }
-      }
-    ]
-  },
+  // {
+  //   path: '/dashboard',
+  //   component: layout,
+  //   redirect: '/dashboard/workplace',
+  //   meta: {
+  //     title: {
+  //       '/zh-CN': '仪表盘',
+  //       '/en-US': 'Dashboard'
+  //     },
+  //     icon: 'ic ic-manage-fill'
+  //   },
+  //   children: [
+  //     {
+  //       path: '/dashboard/analysis',
+  //       name: 'analysis',
+  //       component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/analysis.vue'),
+  //       meta: {
+  //         title: {
+  //           '/zh-CN': '分析页',
+  //           '/en-US': 'Analysis Page'
+  //         },
+  //         icon: 'el-icon-data-analysis',
+  //         hidden: false,
+  //         hiddenTab: false
+  //       }
+  //     },
+  //     {
+  //       path: '/dashboard/workplace',
+  //       name: 'workplace',
+  //       component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/workplace.vue'),
+  //       meta: {
+  //         title: {
+  //           '/zh-CN': '工作台',
+  //           '/en-US': 'Workplace'
+  //         },
+  //         icon: 'el-icon-data-analysis'
+  //       }
+  //     }
+  //   ]
+  // },
   {
     path: '/dragable',
     component: layout,
@@ -165,32 +165,32 @@ export const asyncRoutes: Array<RouteRecordRaw> = [
       }
     ]
   },
-  {
-    path: '/calendar',
-    component: layout,
-    redirect: '/calendar/index',
-    meta: {
-      title: {
-        '/zh-CN': '日历',
-        '/en-US': 'Calendar'
-      },
-      icon: 'ic ic-workbench'
-    },
-    children: [
-      {
-        path: '/calendar/index',
-        name: 'Calendar',
-        component: () => import(/* webpackChunkName: "personalCenter" */ '@/views/Calendar/index.vue'),
-        meta: {
-          title: {
-            '/zh-CN': '日历',
-            '/en-US': 'Calendar'
-          },
-          icon: 'ic ic-workbench'
-        }
-      }
-    ]
-  },
+  // {
+  //   path: '/calendar',
+  //   component: layout,
+  //   redirect: '/calendar/index',
+  //   meta: {
+  //     title: {
+  //       '/zh-CN': '日历',
+  //       '/en-US': 'Calendar'
+  //     },
+  //     icon: 'ic ic-workbench'
+  //   },
+  //   children: [
+  //     {
+  //       path: '/calendar/index',
+  //       name: 'Calendar',
+  //       component: () => import(/* webpackChunkName: "personalCenter" */ '@/views/Calendar/index.vue'),
+  //       meta: {
+  //         title: {
+  //           '/zh-CN': '日历',
+  //           '/en-US': 'Calendar'
+  //         },
+  //         icon: 'ic ic-workbench'
+  //       }
+  //     }
+  //   ]
+  // },
   {
     path: '/copy',
     component: layout,
