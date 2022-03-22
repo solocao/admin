@@ -6,7 +6,7 @@
         <div class="board-info">
           <img class="logo" :src="avatar" />
           <div class="content">
-            <span class="content-name">极客恰恰</span>
+            <span class="content-name">admin</span>
             <span class="content-title">高级前端开发工程师</span>
           </div>
         </div>

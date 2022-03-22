@@ -13,7 +13,7 @@
         <el-card class="box-card">
           <div class="account-avatar">
             <img src="../../assets/avatar-default.jpg" />
-            <div class="account-name">极客恰恰</div>
+            <div class="account-name">admin</div>
             <div class="account-sign">极客签名,持续学习</div>
           </div>
           <div class="account-detail">
