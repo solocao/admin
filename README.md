@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-03-22 15:45:14
- * @LastEditTime: 2022-03-22 17:23:41
+ * @LastEditTime: 2022-03-25 16:52:26
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%
  * @FilePath: /admin/README.md
@@ -47,32 +47,36 @@ vscode+vetur,并且 "vetur.experimental.templateInterpolationService": true,
 ### 功能
 
 - [x] Element Plus
+
+- [x] \*\*\*导入导出 Excel
+- [x] 导出 Zip 文件
+- [x] \*\*\*拖拽组件
+- [x] \*\*\*富文本编辑器
+- [x] \*\*\*markdown 编辑器
+- [x] \*\*\*国际化
+- [x] \*\*\*支持切换主题色:一键换肤
+- [x] \*\*\*指令权限：v-permisson /全局方法：$permission (参考 tableList.vue)
+- [x] \*\*\*可拖拽弹窗
+- [x] \*\*\*导航模式切换
+- [x] \*\*\*内容区域控制
+- [x] \*\*\*图片拖拽/裁剪
 - [x] N+1 多级菜单
-- [x] Dashboard
 - [x] 表格
-- [x] router Tab 选项卡
+- [x] 引导页
 - [x] 表单
 - [x] 图表 :antv or echart
 - [x] 二维码生成
-- [x] 导入导出 Excel
-- [x] 导出 Zip 文件
-- [x] 拖拽组件
-- [x] 富文本编辑器
-- [x] markdown 编辑器
 - [x] 个人页
 - [x] 登录/注册页
 - [x] 404 / 403
 - [x] 菜单管理
 - [x] 角色管理
 - [x] 自定义图标
-- [x] 图片拖拽/裁剪
-- [x] 支持切换主题色:一键换肤
-- [x] 指令权限：v-permisson /全局方法：$permission (参考 tableList.vue)
-- [x] 国际化
+
 - [x] 项目看板
-- [x] 可拖拽弹窗
-- [x] 导航模式切换
-- [x] 内容区域控制
+
+--------------------------------
+
 - [x] 重构 request.ts 请求，使其灵活可配置化；
 - [x] 使用 AES 加密方式，对密码进行安全加密；
 - [x] 完成换肤切换功能，使用 ElementPlus theme-chalk 实现换肤

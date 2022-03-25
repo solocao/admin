@@ -110,21 +110,21 @@ export const asyncRoutes: Array<RouteRecordRaw> = [
   //     },
   //     icon: 'ic ic-manage-fill'
   //   },
-  //   children: [
-  //     {
-  //       path: '/dashboard/analysis',
-  //       name: 'analysis',
-  //       component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/analysis.vue'),
-  //       meta: {
-  //         title: {
-  //           '/zh-CN': '分析页',
-  //           '/en-US': 'Analysis Page'
-  //         },
-  //         icon: 'el-icon-data-analysis',
-  //         hidden: false,
-  //         hiddenTab: false
-  //       }
-  //     },
+    // children: [
+    //   {
+    //     path: '/dashboard/analysis',
+    //     name: 'analysis',
+    //     component: () => import(/* webpackChunkName: "richText" */ '@/views/Dashboard/analysis.vue'),
+    //     meta: {
+    //       title: {
+    //         '/zh-CN': '分析页',
+    //         '/en-US': 'Analysis Page'
+    //       },
+    //       icon: 'el-icon-data-analysis',
+    //       hidden: false,
+    //       hiddenTab: false
+    //     }
+    //   },
   //     {
   //       path: '/dashboard/workplace',
   //       name: 'workplace',
